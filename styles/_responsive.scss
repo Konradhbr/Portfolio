@@ -1,0 +1,273 @@
+//-----------------media-------------------------
+@media (max-width: 375px),
+(max-height: 690px) {
+    .aboutMe {
+        margin-top: 5vh;
+        line-height: 26px;
+    }
+
+    .technologies {
+        line-height: 16px;
+    }
+
+    .project-item {
+        img {
+            width: 320px;
+        }
+    }
+}
+
+@media (min-width: 375px) {
+    .technologies {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .contact-content {
+        margin-bottom: 110px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-content {
+        margin-top: 120px;
+    }
+
+    .projects {
+        margin-top: 100px;
+
+        img {
+            margin-bottom: 100px;
+        }
+    }
+
+    .home-text {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+    }
+
+    .technologies {
+        margin-top: 100px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+
+    /* --------------Home ----------------------------- */
+    .menu-wrap {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: block;
+    }
+
+    #scrollNavbar {
+        display: block;
+    }
+
+
+    .home-text {
+        h1 {
+            font-size: 2.7rem;
+        }
+
+        h4 {
+            font-size: 1.7rem;
+        }
+    }
+
+    //-------------------About------------------------
+
+    #AboutMe {
+        height: 1000px;
+
+        .container {
+            margin-top: 35px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        h3 {
+            padding-top: 90px;
+        }
+
+
+    }
+
+    .aboutMe {
+        margin-top: 10vh;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .technologies {
+        font-size: 22px;
+        line-height: 45px;
+        margin-top: 7vh;
+    }
+
+    //-------------------Portfolio----------------------
+
+    #Portfolio {
+        h3 {
+            font-size: 1.9rem;
+            font-weight: bold;
+            padding-top: 77px;
+        }
+    }
+
+    //-------------------Contact------------------------------
+    #Contact {
+        h4 {
+            font-size: 1.9rem;
+            font-weight: bold;
+            margin-bottom: 80px;
+        }
+    }
+
+    .gradient-contact {
+        top: -1px;
+    }
+
+    .contact-content {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-links {
+        margin-bottom: 0vh;
+
+        a {
+            font-size: 21px;
+        }
+    }
+
+    .footer {
+        font-size: 11px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+
+    .container {
+        max-width: 1300px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    //------------------About-------------------------
+    #AboutMe {
+
+        height: 1150px;
+
+        h3 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+
+    .aboutMe {
+        font-size: 26px;
+    }
+
+    .technologies {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    #slide1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    //---------Portfolio--------------------
+    #Portfolio {
+        height: 1650px;
+
+        .row {
+            h3 {
+
+                font-size: 2.5rem;
+                font-weight: bold;
+
+            }
+        }
+
+    }
+
+    .projects {
+        img {
+            width: 600px;
+        }
+
+
+    }
+
+    //---------Contact--------------------
+    #Contact {
+        h4 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    .contact-links {
+        >div {
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+
+    //-------------Home--------------------
+    .home-text {
+        h1 {
+            font-size: 3.2rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+    }
+
+    //---------About--------------------
+    #AboutMe {
+        h3 {
+            font-size: 2.9rem;
+        }
+    }
+
+    .aboutMe {
+        font-size: 32px;
+    }
+
+    .technologies {
+        font-size: 34px;
+        line-height: 60px;
+    }
+
+    //---------Portfolio--------------------
+    #Portfolio {
+        .row {
+            h3 {
+                font-size: 2.9rem;
+            }
+        }
+    }
+}

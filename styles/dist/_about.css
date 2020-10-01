@@ -1,0 +1,80 @@
+/* --------------About ----------------------------- */
+#AboutMe {
+  height: 750px;
+  text-align: center;
+  font-weight: bold;
+}
+#AboutMe h3 {
+  padding-top: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aboutMe {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  margin-top: 8vh;
+  line-height: 28px;
+}
+
+.technologies {
+  width: 100%;
+  align-items: center;
+  line-height: 20px;
+}
+
+#slide1 {
+  animation-delay: 1s;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+#slide2 {
+  animation-delay: 1.3s;
+}
+
+#slide3 {
+  animation-delay: 1.6s;
+}
+
+#slide4 {
+  animation-delay: 1.9s;
+}
+
+#slide5 {
+  animation-delay: 2.2s;
+}
+
+#slide6 {
+  animation-delay: 2.5s;
+}
+
+#slide7 {
+  animation-delay: 2.8s;
+}
+
+#slide8 {
+  animation-delay: 3.1s;
+}
+
+#slide9 {
+  animation-delay: 3.4s;
+}
+
+.fadeIn {
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}

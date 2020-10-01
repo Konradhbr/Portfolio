@@ -1,0 +1,60 @@
+/* --------------Contact ---------------------------- */
+#Contact {
+  display: flex;
+  height: 450px;
+  background-image: url("/img/contact1.png");
+  background-size: cover;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#Contact h4 {
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.gradient-contact {
+  background-image: linear-gradient(to top, transparent, #f1f1f1);
+  top: 0;
+  width: 100%;
+  height: 19vh;
+  position: absolute;
+}
+
+.contact-links {
+  height: 7vh;
+  width: 100%;
+  font-weight: bold;
+  margin-left: 0px;
+}
+.contact-links a {
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 3vh;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 1.42857143;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 8px;
+}

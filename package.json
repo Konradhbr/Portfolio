@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "aos": "^2.3.4",
+    "hover.css": "^2.3.2",
+    "serve": "^11.3.2",
+    "wowjs": "^1.1.3"
+  }
+}
