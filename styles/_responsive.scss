@@ -29,17 +29,8 @@
 }
 
 @media (min-width: 768px) {
-    .contact-content {
-        margin-top: 120px;
-    }
-
-    .projects {
-        margin-top: 100px;
-
-        img {
-            margin-bottom: 100px;
-        }
-    }
+    
+    /* --------------Home ----------------------------- */
 
     .home-text {
         h1 {
@@ -51,8 +42,38 @@
         }
     }
 
+    /* --------------About ----------------------------- */
+
+    #AboutMe {
+        .container {
+            h3 {
+                padding-top: 60px;
+            }
+
+            .AboutMe-content {
+                height: 80%;
+            }
+        }
+    }
+
     .technologies {
         margin-top: 100px;
+    }
+
+    /* --------------Portfolio ----------------------------- */
+
+    .projects {
+        margin-top: 100px;
+
+        img {
+            margin-bottom: 100px;
+        }
+    }
+
+    /* --------------Contact ----------------------------- */
+
+    .contact-content {
+        margin-top: 120px;
     }
 
 
@@ -84,10 +105,10 @@
         }
     }
 
-    //-------------------About------------------------
+    //-------------------About me------------------------
 
     #AboutMe {
-        height: 1000px;
+        height: 950px;
 
         .container {
             margin-top: 35px;
@@ -100,6 +121,12 @@
 
         h3 {
             padding-top: 90px;
+        }
+
+        .skills {
+            p {
+                padding-bottom: 2rem;
+            }
         }
     }
 
@@ -170,7 +197,7 @@
     //------------------About-------------------------
     #AboutMe {
 
-        height: 1150px;
+        //height: 1150px;
 
         h3 {
             font-size: 2.5rem;

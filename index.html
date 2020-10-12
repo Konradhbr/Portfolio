@@ -27,174 +27,180 @@
 
 <body>
 
-    <!-- scroll navbar begin -->
+    <header>
+        <!-- scroll navbar begin -->
 
-    <div id="scrollNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item hvr-bounce-in"><a class="nav-link active" href="#Home">Home</a></li>
-            <li class="nav-item hvr-bounce-in"><a class="nav-link" href="#AboutMe">About
-                    me</a></li>
-            <li class="nav-item hvr-bounce-in"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
-            <li class="nav-item hvr-bounce-in"><a class="nav-link" href="#Contact">Contact</a></li>
-        </ul>
-    </div>
+        <nav id="scrollNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item hvr-bounce-in"><a class="nav-link active" href="#Home">Home</a></li>
+                <li class="nav-item hvr-bounce-in"><a class="nav-link" href="#AboutMe">About
+                        me</a></li>
+                <li class="nav-item hvr-bounce-in"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                <li class="nav-item hvr-bounce-in"><a class="nav-link" href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <!-- scroll navbar end -->
+        <!-- scroll navbar end -->
 
-    <!-- home begin -->
+        <!-- home begin -->
 
-    <section id="Home">
-        <div class="gradient-home"></div>
-        <div class="menu-wrap">
-            <input type="checkbox" class="toggler">
-            <div class="hamburger">
-                <div></div>
-            </div>
-            <div class="menu">
-                <div>
-                    <ul>
-                        <li><a class="nav-link active" href="#Home">Home</a></li>
-                        <li><a class="nav-link" href="#AboutMe">About me</a></li>
-                        <li><a class="nav-link" href="#Portfolio">Portfolio</a></li>
-                        <li><a class="nav-link" href="#Contact">Contact</a></li>
-                    </ul>
+        <section id="Home">
+            <div class="gradient-home"></div>
+            <nav class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
+                    <div></div>
                 </div>
-            </div>
-        </div>
-        <div class="home-text">
-            <h1>HEY I AM KONRAD</h1>
-            <h4 class="wow fadeInUp" style="animation-delay: 4s;">Front End Developer</h4>
-        </div>
-    </section>
-
-    <!-- home end  -->
-
-    <!-- about me begin -->
-
-    <section id="AboutMe">
-        <div class="container">
-            <div class="col-12">
-                <h3>About me</h3>
-            </div>
-            <div class="row">
-                <div class="aboutMe col-lg-9">
-                    <p class="wow fadeIn">I'm entry/junior frontend developer.
-                        Actually I am studying the fourth year at University College of Enterprise and Administration in
-                        Lublin.
-                        I am interested in frontend technologies. I finished some frontend courses i.a. FreeCodeCamp and
-                        I created some projects while learning.
-                        Also I learned some C++, Java and Oracle SQL during my studies.</p>
-                </div>
-                <div id="tech" class="technologies col-lg-9">
-                    <p id="slide1" class=" wow fadeInUp">MY SKILLS
-                    <p>
-                    <div class="row">
-                        <div class="col-6">
-                            <p id="slide2" class=" wow fadeInUp hvr-radial-out">HTML</p>
-                            <p id="slide2" class=" wow fadeInUp">CSS</p>
-                            <p id="slide3" class=" wow fadeInUp">SASS</p>
-                            <p id="slide4" class=" wow fadeInUp">JavaScript</p>
-                            <p id="slide5" class=" wow fadeInUp">Vue</p>
-                        </div>
-                        <div class="col-6">
-                            <p id="slide6" class=" wow fadeInUp">Git/Github</p>
-                            <p id="slide6" class=" wow fadeInUp">Visual studio</p>
-                            <p id="slide7" class=" wow fadeInUp">Bootstrap</p>
-                            <p id="slide8" class=" wow fadeInUp">Adobe XD</p>
-                            <p id="slide9" class=" wow fadeInUp">RWD</p>
-                        </div>
+                <div class="menu">
+                    <div>
+                        <ul>
+                            <li><a class="nav-link active" href="#Home">Home</a></li>
+                            <li><a class="nav-link" href="#AboutMe">About me</a></li>
+                            <li><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                            <li><a class="nav-link" href="#Contact">Contact</a></li>
+                        </ul>
                     </div>
-
                 </div>
+            </nav>
+            <div class="home-text">
+                <h1>HEY I AM KONRAD</h1>
+                <h4 class="wow fadeInUp" style="animation-delay: 4s;">Front End Developer</h4>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- about me end -->
+        <!-- home end  -->
+    </header>
 
-    <!-- portfolio begin -->
+    <main>
+        <!-- about me begin -->
 
-    <section id="Portfolio">
-        <div class="container">
-            <div class="row">
+        <section id="AboutMe">
+            <div class="container">
                 <div class="col-12">
-                    <h3>Portfolio</h3>
+                    <h3>About me</h3>
                 </div>
-            </div>
-            <div class="row projects">
-                <div class="col-md-6">
-                    <div class="project-item">
-                        <a href="https://image-wise.netlify.app/" target="_blank"><img src="/img/imagewise.png" alt="site"></img></a>
+                <div class="AboutMe-content row">
+                    <div class="AboutMe-text col-lg-9">
+                        <p class="wow fadeIn">I'm entry/junior frontend developer.
+                            Actually I am studying the fourth year at University College of Enterprise and Administration in
+                            Lublin.
+                            I am interested in frontend technologies. I finished some frontend courses i.a. FreeCodeCamp and
+                            I created some projects while learning.
+                            Also I learned some C++, Java and Oracle SQL during my studies.</p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project-item">
-                        <p class="wow fadeIn">This app uses Pixabay image API to fetch images and display them after
-                            passing search query. Project was created with Vue framework.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project-item">
-                        <a href="https://weddinghbr.netlify.app/" target="_blank"><img src="/img/wedding.png" alt="site"></img></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project-item">
-                        <p class="wow fadeIn">This website presents wedding's services. You can find out more information about service 
-                            by working contact form, which is connect with google sheets. Website is responsive for all resolutions.
-                            The website was created for my friend who organizes wedding services</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project-item">
-                        <a href="https://konrad-portfolio.netlify.app/" target="_blank"><img src="/img/portfolio.png" alt="site"></img></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project-item">
-                        <p class="wow fadeIn">This website presents my main portfolio website. You can find there section about me and my projects.
-                            At the last section there are some contact ways, my cv and github profile </p>
+                    <div id="tech" class="skills col-lg-9">
+                        <p id="slide1" class=" wow fadeInUp">MY SKILLS
+                        <p>
+                        <div class="row">
+                            <div class="col-6">
+                                <p id="slide2" class=" wow fadeInUp hvr-radial-out">HTML</p>
+                                <p id="slide2" class=" wow fadeInUp">CSS</p>
+                                <p id="slide3" class=" wow fadeInUp">SASS</p>
+                                <p id="slide4" class=" wow fadeInUp">JavaScript</p>
+                                <p id="slide5" class=" wow fadeInUp">Vue</p>
+                            </div>
+                            <div class="col-6">
+                                <p id="slide6" class=" wow fadeInUp">Git/Github</p>
+                                <p id="slide6" class=" wow fadeInUp">Visual studio</p>
+                                <p id="slide7" class=" wow fadeInUp">Bootstrap</p>
+                                <p id="slide8" class=" wow fadeInUp">Adobe XD</p>
+                                <p id="slide9" class=" wow fadeInUp">RWD</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- portfolio end -->
+        <!-- about me end -->
 
-    <!-- contact begin -->
+        <!-- portfolio begin -->
 
-    <section id="Contact">
-        <div class="gradient-contact"></div>
-        <div class="contact-content">
-            <h4>Let's work together...</h4>
-            <div class="contact-links row">
-                <div class="col-12 col-md-3">
-                    <a href="https://www.facebook.com/konrad.haber.5" target="_blank" class="btn wow fadeInLeft">
-                        <i class="fab fa-facebook-square"></i> Facebook</a>
+        <section id="Portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Portfolio</h3>
+                    </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <a href="https://github.com/Konradhbr" target="_blank" class="btn wow fadeInRight">
-                        <i class="fab fa-github"></i> GitHub</a>
-                </div>
-                <div class="col-12 col-md-3">
-                    <a href="mailto:konradhbr@gmail.com" target="_blank" class="btn wow fadeInUp">
-                        <i class="fas fa-at"></i> Send a mail</a>
-                </div>
-                <div class="col-12 col-md-3">
-                    <a href="/download/CV_Konrad_Haber.pdf" target="_blank" class="btn wow fadeInDown" download>
-                        <i class="fas fa-file-pdf"></i> CV</a>
+                <div class="row projects">
+                    <div class="col-md-6">
+                        <div class="project-item">
+                            <a href="https://image-wise.netlify.app/" target="_blank"><img src="/img/imagewise.png" alt="site"></img></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project-item">
+                            <p class="wow fadeIn">This app uses Pixabay image API to fetch images and display them after
+                                passing search query. Project was created with Vue framework.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project-item">
+                            <a href="https://weddinghbr.netlify.app/" target="_blank"><img src="/img/wedding.png" alt="site"></img></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project-item">
+                            <p class="wow fadeIn">This website presents wedding's services. You can find out more information about service 
+                                by working contact form, which is connect with google sheets. Website is responsive for all resolutions.
+                                The website was created for my friend who organizes wedding services</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project-item">
+                            <a href="https://konrad-portfolio.netlify.app/" target="_blank"><img src="/img/portfolio.png" alt="site"></img></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project-item">
+                            <p class="wow fadeIn">This website presents my main portfolio website. You can find there section about me and my projects.
+                                At the last section there are some contact ways, my cv and github profile </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <footer>&copy; Copyright 2020 Konrad Haber</footer>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- contact end  -->
+        <!-- portfolio end -->
+
+    </main>
+
+    <footer>
+        <!-- contact begin -->
+
+        <section id="Contact">
+            <div class="gradient-contact"></div>
+            <div class="contact-content">
+                <h4>Let's work together...</h4>
+                <div class="contact-links row">
+                    <div class="col-12 col-md-3">
+                        <a href="https://www.facebook.com/konrad.haber.5" target="_blank" class="btn wow fadeInLeft">
+                            <i class="fab fa-facebook-square"></i> Facebook</a>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <a href="https://github.com/Konradhbr" target="_blank" class="btn wow fadeInRight">
+                            <i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <a href="mailto:konradhbr@gmail.com" target="_blank" class="btn wow fadeInUp">
+                            <i class="fas fa-at"></i> Send a mail</a>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <a href="/download/CV_Konrad_Haber.pdf" target="_blank" class="btn wow fadeInDown" download>
+                            <i class="fas fa-file-pdf"></i> CV</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div>&copy; Copyright 2020 Konrad Haber</div>
+            </footer>
+        </section>
+
+        <!-- contact end  -->
+    </footer>
 </body>
 
 </html>

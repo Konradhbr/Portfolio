@@ -375,13 +375,17 @@ img {
   font-weight: bold;
 }
 
-#AboutMe h3 {
+#AboutMe .container {
+  height: 100%;
+}
+
+#AboutMe .container h3 {
   padding-top: 35px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.aboutMe {
+.AboutMe-text {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,7 +395,7 @@ img {
   line-height: 28px;
 }
 
-.technologies {
+.skills {
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -594,23 +598,33 @@ img {
 }
 
 @media (min-width: 768px) {
-  .contact-content {
-    margin-top: 120px;
-  }
-  .projects {
-    margin-top: 100px;
-  }
-  .projects img {
-    margin-bottom: 100px;
-  }
+  /* --------------Home ----------------------------- */
   .home-text h1 {
     font-size: 3rem;
   }
   .home-text h4 {
     font-size: 2rem;
   }
+  /* --------------About ----------------------------- */
+  #AboutMe .container h3 {
+    padding-top: 60px;
+  }
+  #AboutMe .container .AboutMe-content {
+    height: 80%;
+  }
   .technologies {
     margin-top: 100px;
+  }
+  /* --------------Portfolio ----------------------------- */
+  .projects {
+    margin-top: 100px;
+  }
+  .projects img {
+    margin-bottom: 100px;
+  }
+  /* --------------Contact ----------------------------- */
+  .contact-content {
+    margin-top: 120px;
   }
 }
 
@@ -632,7 +646,7 @@ img {
     font-size: 1.7rem;
   }
   #AboutMe {
-    height: 1000px;
+    height: 950px;
   }
   #AboutMe .container {
     margin-top: 35px;
@@ -647,6 +661,9 @@ img {
   }
   #AboutMe h3 {
     padding-top: 90px;
+  }
+  #AboutMe .skills p {
+    padding-bottom: 2rem;
   }
   .aboutMe {
     margin-top: 10vh;
@@ -692,9 +709,6 @@ img {
   }
   p {
     font-size: 17px;
-  }
-  #AboutMe {
-    height: 1150px;
   }
   #AboutMe h3 {
     font-size: 2.5rem;
